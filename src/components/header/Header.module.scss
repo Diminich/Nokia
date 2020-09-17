@@ -1,0 +1,54 @@
+.wrapper {
+  height: 10%;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wrapperIconNokia {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #124191;
+}
+
+.wrapperIcons {
+  width: 13%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #124191;
+}
+
+.wrapperIconMenuSpan {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapperMenu {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconPlanet {
+  font-size: 20px;
+}
+
+.iconMagnifier {
+  @extend .iconPlanet;
+}
+
+.iconMenu {
+  @extend .iconPlanet;
+}
+
+.spanMenu {
+  font-size: small;
+  color: #124191;
+}

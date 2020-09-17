@@ -1,0 +1,42 @@
+.wrapperMenuInnovationItem {
+  height: 220px;
+  width: 250px;
+  padding-left: 10px;
+}
+
+.menuInnovationItem {
+  width: 190px;
+  border-bottom: 1px solid rgba(140, 136, 136, 0.2);
+}
+
+.menuItem:hover {
+  color: #0065ed;
+  background-color: white;
+}
+
+
+.textContact {
+color: gray;
+}
+
+.wrapperMenuInnovationItemButton {
+  width: 100%;
+  height: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuInnovationButtonItem {
+  width: 55%;
+  height: 40%;
+  background-color: white;
+  border-radius: 5px;
+  color: #0065ed;
+  border: 1px solid #0065ed;
+}
+
+.menuInnovationButtonItem:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}

@@ -1,17 +1,17 @@
 import React from "react";
-import style from './Innovation.module.scss';
-import img from './../../../icons/innov.jpg';
+import style from './Blog.module.scss';
+import img from './../../../icons/blog.jpg';
 
-const Innovation = () => {
+const Blog = () => {
     return (
-        <div className={style.wrapperInnovation}>
-            <div className={style.wrapperInnovationImg}>
-                <img src={img} className={style.innovationImg} />
+        <div className={style.wrapperBlog}>
+            <div className={style.wrapperBlogImg}>
+                <img src={img} className={style.blogImg} />
             </div>
-            <a className={style.linkInnovation}>Инновации</a>
-            <span>Исследуйте постоянное сотрудничество в сфере инноваций в Nokia и за ее пределами</span>
+            <a className={style.linkBlog}>Блог</a>
+            <span>Участвуйте в дискуссии</span>
         </div>
     )
 }
 
-export default Innovation;
+export default Blog;

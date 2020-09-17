@@ -1,0 +1,82 @@
+.wrapperHomePage {
+  height: 100vh;
+  width: 100%;
+}
+
+.images {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wrapperNewPhone {
+  height: 100%;
+  width: 30%;
+  background-image: url('./../../icons/Nokia1.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.newPhone {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-left: 40px;
+}
+
+.textPhone {
+  height: 30%;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 30px;
+  position: sticky;
+}
+
+.buttonPhone {
+  height: 5%;
+  width: 45%;
+  background-color: white;
+  border-radius: 5px;
+  color: #0065ed;
+  border: 1px solid #0065ed;
+}
+
+.buttonPhone:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapperNetworkedTechnological {
+  @extend .wrapperNewPhone;
+  background-image: url('./../../icons/Nokia2.jpg');
+}
+
+.networkedTechnological {
+  @extend .newPhone
+}
+
+.textNetworkedTechnological {
+  @extend .textPhone
+}
+
+.buttonNetworkedTechnological {
+  @extend .buttonPhone
+}
+
+.buttonNetworkedTechnological:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

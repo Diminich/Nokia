@@ -1,28 +1,30 @@
-.wrapperInnovation {
-  height: 65%;
-  width: 19%;
+.wrapperNews {
+  height: 75%;
+  width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
 }
 
-.wrapperInnovationImg {
+.wrapperNewsImg {
+  height: 65%;
+  width: 100%;
   display: inline-block;
   overflow: hidden;
 }
 
-.innovationImg {
+.newsImg {
   width: 100%;
   transition: 1s;
   display: block;
 }
 
-.innovationImg:hover {
+.newsImg:hover {
   transform: scale(1.2);
 }
 
-.linkInnovation:hover {
+.linkNews:hover {
   transition: 0s;
   color: black;
 }

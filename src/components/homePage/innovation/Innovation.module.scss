@@ -1,5 +1,5 @@
-.wrapperBlog {
-  height: 70%;
+.wrapperInnovation {
+  height: 75%;
   width: 25%;
   display: flex;
   flex-direction: column;
@@ -7,25 +7,24 @@
   align-items: flex-start;
 }
 
-.wrapperBlogImg {
+.wrapperInnovationImg {
   height: 65%;
   width: 100%;
   display: inline-block;
   overflow: hidden;
 }
 
-.blogImg {
+.innovationImg {
   width: 100%;
   transition: 1s;
   display: block;
-  background-size: cover;
 }
 
-.blogImg:hover {
+.innovationImg:hover {
   transform: scale(1.2);
 }
 
-.linkBlog:hover {
+.linkInnovation:hover {
   transition: 0s;
   color: black;
 }

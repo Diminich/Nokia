@@ -1,17 +1,17 @@
 import React from "react";
-import style from './Innovation.module.scss';
-import img from './../../../icons/innov.jpg';
+import style from './News.module.scss';
+import img from './../../../icons/news.jpg';
 
-const Innovation = () => {
+const News = () => {
     return (
-        <div className={style.wrapperInnovation}>
-            <div className={style.wrapperInnovationImg}>
-                <img src={img} className={style.innovationImg} />
+        <div className={style.wrapperNews}>
+            <div className={style.wrapperNewsImg}>
+                <img src={img} className={style.newsImg} />
             </div>
-            <a className={style.linkInnovation}>Инновации</a>
-            <span>Исследуйте постоянное сотрудничество в сфере инноваций в Nokia и за ее пределами</span>
+            <a className={style.linkNews}>Новости & события</a>
+            <span>Прочитайте о последних новостях и событиях Nokia</span>
         </div>
     )
 }
 
-export default Innovation;
+export default News;
